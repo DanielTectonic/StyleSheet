@@ -1,0 +1,193 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #fff;
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.flex-container bottomnav {
+	justify-content: space-between;
+}
+/*CHANGE ZOHO BRANDING & APP ICON ON TOP LEFT*/
+		.zc-app-brand {
+		background-color:#0072bc;
+		/*display: none !important;*/
+		}
+		.zc-app-brand-appname {
+		/*display: none !important;*/
+		}
+
+		
+/*TURN OFF ZOHO SIDE NAV
+		.pane_nav {
+		display: none !important;
+		}
+		.page_content_wrapper {
+		margin-left: 0px;
+		}
+*/		
+		
+/*TURN OFF ZOHO HEADER
+		.zc-header {
+		display: none;
+		}
+*/
+		
+/*CHANGE COLOR OF USER NAME IN TOP RIGHT CORNER*/
+		.navbar_user_name {
+		color:#342F48 ;
+		}
+		
+/*INSERT CUSTOM NAVIGATION*/
+		ul second{
+ 		list-style-type: none;
+ 		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+		}
+		.nav{
+    	list-style:none;
+   	 	margin:0;
+    	padding:0;
+    	text-align:center;
+		max-width:85%;
+		}
+		.nav li{
+   	 	display:inline;
+		}
+		.nav a{
+    	display:inline-block;
+    	padding:10px;
+	  	color: #5e5e5e;
+	    text-decoration: none;
+  		font-family: lato;
+		font-size:10pt;
+  		}
+		.active {
+		border-bottom-style: solid !important;
+    	border-bottom-width: 3px !important;
+    	border-bottom-color: #0072bc;
+		color: #342f48 !important;
+		}
+		li a:hover {
+  		background-color: #eaf8fd;
+		color: #0072bc !important;
+		}
+		
+/*BOTTOM NAVIGATION		
+		.button {
+  		margin-top: 30px;
+		padding:5px !important;
+		border-style: solid;
+		border-width: 1px;
+		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		cursor: pointer;
+		font-family: lato;
+		font-size: 11pt;
+		border-radius: 0;
+		width: 100px;
+		text-shadow: none;
+		}
+		.continue {
+		border-color: #0072bc !important;
+		background-color: #0072bc;
+		color:#fff !important;
+		float: right;
+  		}
+		.back {
+		border-color: #342F48 !important;
+  		color: #342F48 !important;
+		float: left;
+		}
+*/
+.btn-bar {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: center;
+	text-align: center;
+	max-width: 85%;
+}
+
+.button {
+  margin-top: 30px;
+		padding:5px !important;
+		border-style: solid;
+		border-width: 1px;
+		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		cursor: pointer;
+		font-family: lato;
+		font-size: 10pt;
+		border-radius: 0;
+		width: 100px;
+		text-shadow: none;
+}
+
+	.button--back {
+  	background-color: #fff;
+  	color: #342F48;
+	border: none;
+	}
+
+	.button--continue {
+  	background-color: #0072bc;
+  	color: #fff;
+	border-color:#0072bc;
+		}
+
+/*REMOVE ZOHO REPORT STYLING*/
+		.zc-new-report-header {
+        display: none !important;
+        }
+		.view-outer-wrapper .reportfullwidth .record-container {
+   		height: 100%;
+		}
+		.zc-dem-record-popup .show-view-record-options .view-record-edit-options .zc-dem-report-actions li:last-child {
+    	position: relative;
+    	display: none;
+		}
+        .view-header {
+        height: 30px;
+        }
+		.reportfullwidth {
+		background-color:#fff;
+		border-style: solid;
+  		border-width: 2px;
+		border-color: #f2f2f2;
+    	padding: 10px;
+		max-width: 85%;
+		}
+		.zcpopup.compact .popupbox-wrapper .popupbox {
+    	max-width: 90%;
+    	max-height: 100%;
+		}
+		.record-container.zc-reporttype-list .htCore tbody tr td a.zc-edit-record-icon {
+    	visibility: VISIBLE;
+    	display: block;
+		color:#0072bc;
+		}
+		.zc-reporttype-list .list-view-inner .handsontable .wtHolder .wtHider .htCore tbody tr td.zcReport_CustomAction a.zc-custom-btn {
+    	padding: 6px 10px;
+    	background-color: #0072bc;
+    	color: #fff;
+    	border-color: #fff;
+		}
+		
+		img {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		}
+			/*TO ADD LOGO TO TOP OF PAGE
+	<img src="https://creator.zoho.com/appbuilder/davidclifford1/plan-onboarding/pageImage?fileName=T_Bank_Retirement_Solutions_Logo_s.png" alt="Logo" width="285" height="auto">
+	*/
+
